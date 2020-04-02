@@ -23,7 +23,7 @@ SensorMQ mq(A3);
 #include <SensorCover.h>
 SensorCover screen(5, 6, 5);
 
-#include <sensors/SensorDHT11.h>
+#include <sensors/SensorDHT.h>
 SensorDHT dht(7);
 
 bool inited = false;
